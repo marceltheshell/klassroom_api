@@ -23,6 +23,7 @@ module KlassroomApi
     config.generators do |g|
       g.orm :active_record, primary_key_type: :uuid
     end
+    config.assets.compile = false
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
